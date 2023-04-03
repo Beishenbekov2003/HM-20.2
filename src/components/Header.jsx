@@ -10,7 +10,6 @@ const Header = () => {
     <>
       <StyledHeader>
         <h1>REDUX TODO LIST</h1>
-
         <Button onClick={goToAuthPage}>Logout</Button>
       </StyledHeader>
       <Outlet />
